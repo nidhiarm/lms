@@ -3,11 +3,12 @@ import React from "react";
 import {
     Layout, Menu, Breadcrumb,
   } from 'antd';
-  import 'antd/dist/antd.less';
-const { Header, Content, Footer} = Layout;
+import 'antd/dist/antd.less';
 import Sidebar from "../components/sidebar";
 // import Head from "next/head";
 // import Link from "next/link";
+
+const { Header, Content, Footer} = Layout;
 
 export default class MyApp extends App{
    
